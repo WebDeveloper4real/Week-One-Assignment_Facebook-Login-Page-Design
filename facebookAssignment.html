@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO FACEBOOK</title>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+}
+.pageMainSection{
+    display: flex;
+}
+
+.subSection1{
+    display: flex;
+    margin-left: 9.75rem;
+    margin-top: 11.25rem;
+}
+
+.subSection1mainDiv {
+    flex-basis: 80%;
+    flex-direction: column;
+}
+
+.subSection1mainDivDiv1 {
+    width: 18rem;
+}
+
+.subSection1mainDivDiv2 {
+    font-size: 25px;
+    margin-left: 1.7rem;
+    font-family: Arial, sans-serif;
+}
+
+.subSection2 {
+    margin-top: 8.4rem;
+    margin-right: 13.4rem;
+    align-content: right;
+    width: 24.75rem;
+    height: 28.5rem;
+}
+
+.subSection2Form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 15px 23px 15px;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3), 0 5px 7px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+}
+
+.subSection2Form div {
+    background-color: #fff;
+}
+
+
+.txt-field{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    height: fit-content;
+    background-color: #fff;
+    padding: 14px 16px 14px 16px;
+    width: 22.75rem;
+    margin-left: 0;
+    margin-bottom: 11px;
+    border: 2px solid #F0F2F5;
+    border-radius: 6px;
+}
+.txt-field:focus{
+    border: 1px solid #1877F2;
+}
+.btn1{
+    width: 24.6rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #1877F2;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #0e5bc0;
+}
+.subSection2Form a{
+    background-color: #fff;
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+.subSection2Form a:hover{
+    text-decoration: underline;
+}
+.subSection2Form span{
+    border: 1px solid #F0F2F5;
+    width: 24.6rem;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.btn2{
+    width: 12rem;
+    height: 3rem;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color:#42B72A;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #2b9616;
+}
+.creatPage {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.creatPage a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.creatPage a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:700px){
+    .facebook{
+        flex-direction: column;
+        align-content: center;
+    }
+    .fac-intro{
+        margin-top: 5%;
+        margin-left: 10%;
+        text-align: center;       
+    }
+    .fbook{
+        flex-basis: 10%;
+    }
+    .fbook-p{
+        margin-left: 3px;
+        margin-top: -15px;
+        font-size: 15px;
+    }
+}
+</style>
+</head>
+<body>
+    <section class="pageMainSection">
+        <section class="subSection1">
+            <div class="subSection1mainDiv">
+                <div class="subSection1mainDivDiv1">
+                        <img src="facebook-logo.svg" alt="">
+                </div>
+                
+                <div class="subSection1mainDivDiv2">
+                    <p>
+                        Connecting Communities and People of all races in the world.......
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="subSection2">
+            <form class="subSection2Form">
+                <div>
+                    <input class="txt-field" type="email" name="email-phone" placeholder="Email or Phone Number">
+                </div>
+            
+                <div>
+                    <input class="txt-field" type="password" name="password" placeholder="Password">
+                </div>
+
+                <div>
+                    <input class="btn1" type="button" value="Log-in">
+                </div>
+                
+                <a href="#">Forgotten Password?</a>
+                <span>
+
+                </span>
+
+                <div>
+                <input class="btn2" type="button" value="Create New Account">
+                </div>
+           </form>
+                
+           <p class="createPage">
+                    <a href="#">Create a Page</a> 
+                    To CONNECT WITH FRIENDS AND BUSINESSES
+            </p>
+        </section>
+    </section>
+</body>
+</html>
